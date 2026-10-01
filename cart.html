@@ -1,0 +1,84 @@
+<!-- File: cart.html | Student: Saksham Kapasia | Roll No: 2501920110325 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G.L. Bajaj Online Book Store - Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand-container">
+            <img src="logo.png" alt="G.L. Bajaj Logo" class="header-logo">
+            <h1>G.L. Bajaj Online Book Store</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="catalogue.html">Catalogue</a>
+            <a href="cart.html" class="active">Cart</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <a href="#">CSE Books</a>
+            <a href="#">ECE Books</a>
+            <a href="#">Mechanical Books</a>
+        </aside>
+
+        <main class="content">
+            <h2>Your Shopping Cart</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Book Image</th>
+                        <th>Book Name</th>
+                        <th>Author</th>
+                        <th>Price</th>
+                        <th>Amount</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=150&auto=format&fit=crop&q=80" alt="Computer Science" class="book-thumb">
+                        </td>
+                        <td>Computer Science</td>
+                        <td>Robert Sedgewick</td>
+                        <td>Rs. 4000</td>
+                        <td><span class="qty-badge">2</span></td>
+                        <td><a href="#" class="btn-remove">Remove</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1509228468518-180dd4864904?w=150&auto=format&fit=crop&q=80" alt="Artificial Intelligence" class="book-thumb">
+                        </td>
+                        <td>Artificial Intelligence</td>
+                        <td>Charu C. Agarwal</td>
+                        <td>Rs. 5000</td>
+                        <td><span class="qty-badge">1</span></td>
+                        <td><a href="#" class="btn-remove">Remove</a></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="cart-summary">
+                <p class="total-price">
+                    Total Price: <span class="total-amount">Rs. 13,000</span>
+                </p>
+                <button type="button" class="btn-checkout">Proceed to Checkout</button>
+            </div>
+        </main>
+    </div>
+
+    <footer>
+        Created by <span>Saksham Kapasia</span> | Roll no. <span>2501920110325</span>
+    </footer>
+
+</body>
+</html>

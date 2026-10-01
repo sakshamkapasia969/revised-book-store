@@ -1,0 +1,83 @@
+<!-- File: catalogue.html | Student: Saksham Kapasia | Roll No: 2501920110325 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>G.L. Bajaj Online Book Store - Catalogue</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="brand-container">
+            <img src="logo.png" alt="G.L. Bajaj Logo" class="header-logo">
+            <h1>G.L. Bajaj Online Book Store</h1>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="register.html">Register</a>
+            <a href="catalogue.html" class="active">Catalogue</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <aside class="sidebar">
+            <h3>Categories</h3>
+            <a href="#" class="active">CSE Books</a>
+            <a href="#">ECE Books</a>
+            <a href="#">Mechanical Books</a>
+        </aside>
+
+        <main class="content">
+            <h2>Book Catalogue</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Book Image</th>
+                        <th>Book Name</th>
+                        <th>Author Name</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1532012164546-f432f2e3777a?w=150&auto=format&fit=crop&q=80" alt="Computer Science" class="book-thumb">
+                        </td>
+                        <td>Computer Science</td>
+                        <td>Robert Sedgewick</td>
+                        <td>Rs. 4000</td>
+                        <td><a href="cart.html" class="btn-table-action">Add to Cart</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=150&auto=format&fit=crop&q=80" alt="Operating System Concepts" class="book-thumb">
+                        </td>
+                        <td>Operating System Concepts</td>
+                        <td>Dr. Ikvinderpal Singh</td>
+                        <td>Rs. 3800</td>
+                        <td><a href="cart.html" class="btn-table-action">Add to Cart</a></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?w=150&auto=format&fit=crop&q=80" alt="Database System Concepts" class="book-thumb">
+                        </td>
+                        <td>Database System Concepts</td>
+                        <td>Abraham Silberschatz</td>
+                        <td>Rs. 2500</td>
+                        <td><a href="cart.html" class="btn-table-action">Add to Cart</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+
+    <footer>
+        Created by <span>Saksham Kapasia</span> | Roll no. <span>2501920110325</span>
+    </footer>
+
+</body>
+</html>
